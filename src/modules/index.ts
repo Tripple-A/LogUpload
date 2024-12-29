@@ -1,5 +1,6 @@
-import customerModule from './customers';
+import customerModule from "./users";
+import billingModule from "./billing";
 
-const modules = [customerModule];
+const modules = [customerModule, billingModule];
 
 export default modules;

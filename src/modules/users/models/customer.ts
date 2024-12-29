@@ -1,5 +1,5 @@
-import { DataTypes, Model } from 'sequelize';
-import sequelize from '../../../shared/database';
+import { DataTypes, Model } from "sequelize";
+import sequelize from "../../../shared/database";
 
 class Customer extends Model {
   public id!: number;
@@ -26,11 +26,10 @@ Customer.init(
   },
   {
     sequelize,
-    modelName: 'Customer',
-    tableName: 'customers',
+    modelName: "Customer",
+    tableName: "customers",
     timestamps: true,
   }
 );
-
 
 export default Customer;
